@@ -4,8 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>C:/Users/Scott/InstantCare/Engineering/7102-10 - 906GN-SmokeGSMHub/FOTA/ISW7102.2-10-PassthruAndSleep/config.h</itemPath>
-      <itemPath>C:/Users/Scott/InstantCare/Engineering/7102-10 - 906GN-SmokeGSMHub/FOTA/ISW7102.2-10-PassthruAndSleep/io.h</itemPath>
+      <itemPath>config.h</itemPath>
+      <itemPath>io.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -15,10 +15,8 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Makefile</itemPath>
-      <itemPath>config.h</itemPath>
       <itemPath>data_handling.c</itemPath>
       <itemPath>io.c</itemPath>
-      <itemPath>io.h</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>spi.c</itemPath>
       <itemPath>uart.c</itemPath>

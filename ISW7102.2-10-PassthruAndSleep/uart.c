@@ -12,10 +12,10 @@ void init_uart()
     TXSTA = 0x26;       //00100110
     RCSTA = 0x90;       //10010000
     BAUDCON = 0xc8;     //11001000
-    SPBRG = 103;       //19200bps
+    //SPBRG = 103;       //19200bps
     SPBRGH = 0;
     BAUDCONbits.WUE = 1;
-//    SPBRG = 16;         // NOTE: ensure the hub code is always operating at 115.2kbaud uart to the modem, for now.
+    SPBRG = 16;         // NOTE: ensure the hub code is always operating at 115.2kbaud uart to the modem, for now.
 //    SPBRGH = 0;   
 
 //    RXD_IN = 1;         /* Set RX pin as input */
